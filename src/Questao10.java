@@ -8,7 +8,7 @@ public class Questao10 {
         System.out.println("V - Vespertino");
         System.out.println("N - Noturno");
         System.out.print("Em qual turno você estuda? ");
-        String turno = leitor.next();
+        String turno = leitor.next().toUpperCase();
 
         switch (turno) {
             case "M":
